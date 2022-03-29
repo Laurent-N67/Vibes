@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WE VIBINNNNNNGGGGGGGGGGG</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+    <header class="small_padding" id="page_header">
+        <div id="logo_container">
+            <img src="img/logo.png" alt="vibing" class="cat">
+        </div>
+        <nav class="Hnav">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">portfolio</a></li>
+                <li><a href="#">testimonials</a></li>
+                <li><a href="#">contact</a></li>
+                <li><a href="#">pages</a></li>
+            </ul>
+        </nav>
+        <button class="burger"><i class="fa-solid fa-bars"></i></button>
+    </header>
+
+    <main class="main">
+
+        <section class="section1 large_padding">
+            <h1 class="title1">HTML template for creative folks and design agencies</h1>
+            <p class="p1">Far far away,behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+            <span id="dots">...</span><span id="more">La montagne est vraiment belle wtf</span></p>
+
+            <button onclick="myFunction()" id="myBtn" >Read more</button>
+        </section>
+
+        <section class="section2">
+            <div class="div1-S2">
+                <h2>Why choose us?</h2>
+                <p class="FP">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo quidem ex, eius inventore accusamus laborum.</p>
+                <p class="SP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore tempore ducimus rem nobis corrupti sapiente!</p>
+            </div>
+
+            <div class="div2-S2">
+                <h2>What you get?</h2>
+                    <div class="font">
+                        <i class="fa-brands fa-wordpress"></i>
+                        <div>
+                            <p class="firstP">colorful & compact<p class="secondP">portfolio WordPress Theme</p></p>
+                        </div>
+                    </div>
+                    <div class="font">
+                        <i class="fa-solid fa-gear"></i>
+                        <div>
+                        <p class="firstP">very easy to use<p class="secondP">Page Builder & Shortcodes</p></p>
+                    </div>
+                    </div>
+                    <div class="font">
+                        <i class="fa-solid fa-paper-plane"></i>
+                        <div>
+                        <p class="firstP">coded with sass<p class="secondP">Create Custom Skins in Minutes</p></p>
+                    </div>
+                    </div>
+            </div>
+
+            <div class="accordion">
+                <div id="accordion1">
+                        <i class="fa-solid fa-minus"></i>
+                    <div>
+                        <p class ="firstP">nulla consequat massa</p>
+                        <p class="secondP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, sint!</p> 
+                    </div>
+                </div>
+                <div id="accordion2">
+                    <i class="fa-solid fa-plus"></i>
+                    <div>
+                        <p class="firstP">vivamus elementum semper </p>
+                        <p class="secondP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, quidem.</p>
+                    </div>
+                </div>
+                <div id="accordion3">
+                    <i class="fa-solid fa-plus"></i>
+                    <div>
+                        <p class="firstP">Etiam ultricies nisi vel </p>
+                        <p class="secondP">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore, rem!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section3">
+            <div id="gallery">
+                <figure class="toFilter" data-type="jeux">
+                    <img src="img/arthas.jpg" alt="image gallerie">
+                    <figcaption><i class="fa-solid fa-gamepad"></i></figcaption>
+                </figure>
+                <figure class="toFilter" data-type="images">
+                    <img src="img/city.webp" alt="image gallerie">
+                    <figcaption><i class="fa-solid fa-image"></i></figcaption>
+                </figure>
+                <figure class="toFilter" data-type="jeux">
+                    <img src="img/daddy.jpg" alt="image gallerie">
+                    <figcaption><i class="fa-solid fa-gamepad"></i></figcaption>
+                </figure>
+                <figure class="toFilter" data-type="video">
+                    <iframe  src="https://www.youtube.com/embed/i8BwVO8woBo" alt="video"></iframe>
+                    <figcaption><i class="fa-solid fa-video"></i></figcaption>
+                </figure>
+                <figure class="toFilter" data-type="images">
+                    <img src="img/piano.png" alt="image gallerie">
+                    <figcaption><i class="fa-solid fa-image"></i></figcaption>
+                </figure>
+                <figure class="toFilter" data-type="jeux">
+                    <img src="img/sargeras.jpg" alt="image gallerie">
+                    <figcaption><i class="fa-solid fa-gamepad"></i></figcaption>
+                </figure>
+                <figure class="toFilter" data-type="images">
+                    <img src="img/city2.jpg" alt="image gallerie">
+                    <figcaption><i class="fa-solid fa-image"></i></figcaption>
+                </figure>
+                <figure class="toFilter" data-type="jeux">
+                    <img src="img/witcher.jpg" alt="image gallerie">
+                    <figcaption><i class="fa-solid fa-gamepad"></i></figcaption>
+                </figure>
+            </div>
+            <div class="small_padding" id="gallery_actions">
+                <div id="gallery_filter">
+                    <button class="filter_button active" data-selection="all">all</button>
+                    <button class="filter_button" data-selection="jeux">jeux</button>
+                    <button class="filter_button" data-selection="images">images</button>
+                    <button class="filter_button" data-selection="video">video</button>
+                </div>
+                <button id="load">load more</button>
+            </div>
+
+        </section>
+        <section class="small_padding" id="testimonials">
+            <header class="section_header">
+                <h1 class="client_testi">client testimonials</h1>
+                <div class="dash"></div>
+            </header>
+            <div id="testimonials_container">
+                <div class="testimonial">
+                    <img class="profile" src="img/profile_icon_1.png">
+                    <div>
+                        <p class="x_large italic">Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget.</p>
+                        <p class="small"><strong>Tommy Mars</strong>, Designer</p>
+                    </div>
+                </div>
+                <div class="testimonial" id="mid">
+                    <div>
+                        <p class="x_large text_right italic">Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</p>
+                        <p class="small text_right"><strong>Floor Simons</strong>, Designer</p>
+                    </div>
+                    <img class="profile" src="img/profile_icon_2.png">
+                </div>
+                <div class="testimonial">
+                    <img class="profile" src="img/profile_icon_3.png">
+                    <div>
+                        <p class="x_large italic">Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget.</p>
+                        <p class="small"><strong>Mick Neil</strong>, Rock Star</p>
+                    </div>
+                </div>
+            </div>
+            <button class="become_client">become our client</button>
+        </section>
+        <section class="large_padding" id="commercial">
+            <header class="section_header">
+                <h1>new horizons await</h1>
+                <div class="dash"></div>
+            </header>
+            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life. One day however a small line of blind text by the name of Lorem Ipsum decided</p>
+            <button>buy vibes on themeforest</button>
+        </section>
+        <section class="small_padding" id="contact">
+            <header class="section_header">
+                <h1>get in touch</h1>
+                <div class="dash"></div>
+            </header>
+            <form action="submit">
+                <div class="form_column">
+                    <div class="form">
+                        <label for="" class="required">your name</label>
+                        <input type="text">
+                    </div>
+                    <div class="form">
+                        <label for="" class="required">your email</label>
+                        <input type="text">
+                    </div>
+                    <div class="form">
+                        <label for="">your phone</label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="form_column">
+                    <div class="form">
+                        <label for="">subject</label>
+                        <input type="text">
+                    </div>
+                    <div class="form">
+                        <label for="" class="required">message</label>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <button type="submit">send</button>
+                </div>
+            </form>
+        </section>     
+        </main>
+        <footer>
+        <section class="small_padding" id="about_us">
+            <article>
+                <h5>about vibes</h5>
+                <div class="small_dash"></div>
+                <p>VIBES is an ideal theme for creative folks or design agencies. <strong>Ease of use and top-notech web design techniques</strong> are wrapped with several gorgeous color schemes</p>
+                <p>You can buy this responsive Wordpress theme on <span class="pink">ThemeForest</span></p>
+            </article>
+            <article>
+                <h5>newsletter</h5>
+                <div class="small_dash"></div>
+                <p><strong>VIBES</strong> contains fully working <strong>Mailchimp</strong> subscribe form.</p>
+                <form>
+                    <input type="email" placeholder="Your Email Adress">
+                    <button action="submitt">subscribe</button>
+                </form>
+            </article>
+            <article>
+                <h5>twitter feed</h5>
+                <div class="small_dash"></div>
+                <p>&#9724&#9724&#9724&#9724&#9632</p>
+            </article>
+            <button id="angle_up"><i class="fa-solid fa-angle-up"></i></button>
+        </section>
+        <nav class="small_padding" id="footer_nav">
+            <a>Buy this theme on ThemeForest.net</a>
+            <div>
+                <a href="">Home</a>
+                <a href="">Elements</a>
+                <a href="">Documentation</a>
+            </div>
+        </nav>
+        </footer>
+            </main>
+        </div>
+    </div>
+</section>
+</body>
+<script src="script.js"></script>
+</html>
